@@ -10,7 +10,7 @@ app.get('/mars', function(req, res) {
   res.send('Hello Mars!\n');
 });
 
-app.listen(5454, function () {
-  console.log('Example app listening on port 80!');
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000');
 });
 
